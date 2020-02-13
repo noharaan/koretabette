@@ -1,17 +1,19 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
+    <Dummy />
     <CategorySelector />
   </div>
 </template>
 
 <script>
 import CategorySelector from "./components/category-selector.vue";
+import Dummy from "./components/dummy.vue";
 
 export default {
   name: "app",
   components: {
-    CategorySelector
+    CategorySelector,
+    Dummy
   }
 };
 </script>
