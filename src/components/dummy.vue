@@ -2,10 +2,8 @@
   <div>あああ</div>
 </template>
 <script>
-  export default {
-    name: 'Dummy'
-  };
+export default {
+  name: "Dummy"
+};
 </script>
-<style scoped lang="scss">
-
-</style>
+<style scoped lang="scss"></style>

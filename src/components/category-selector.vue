@@ -3,7 +3,7 @@
     <ul>
       <li v-for="category in categories" v-bind:key="category.code">
         <input type="radio" name="category" :id="category.code" />
-        <label :for="category.code" v-on:click="targetCategory"> {{ category.name }}</label>
+        <label :for="category.code"> {{ category.name }}</label>
       </li>
     </ul>
   </div>
@@ -16,11 +16,6 @@ export default {
   name: "CategorySelector",
   data: function() {
     return { categories: dummyCategories };
-  },
-  methods: {
-    targetCategory: function(e) {
-      console.log(e.target.innerHTML);
-    }
   }
 };
 </script>

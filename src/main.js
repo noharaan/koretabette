@@ -1,13 +1,13 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import App from "./App.vue";
-import {routes} from "./routes";
+import { routes } from "./routes";
 
 Vue.config.productionTip = false;
 Vue.use(VueRouter);
 const router = new VueRouter({
   routes // `routes: routes` の短縮表記
-})
+});
 
 new Vue({
   router,
