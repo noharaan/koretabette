@@ -1,20 +1,13 @@
 <template>
   <div id="app">
-    <Dummy />
-    <CategorySelector />
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import CategorySelector from "./components/category-selector.vue";
-import Dummy from "./components/dummy.vue";
-
 export default {
   name: "app",
-  components: {
-    CategorySelector,
-    Dummy
-  }
+  components: {}
 };
 </script>
 

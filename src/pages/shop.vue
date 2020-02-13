@@ -7,7 +7,7 @@
     </div>
     <div class="shopInfo__Image">
       <ul>
-        <img src="https://placehold.jp/375x240.png">
+        <img src="https://placehold.jp/375x240.png" />
       </ul>
     </div>
     <div>
@@ -16,7 +16,7 @@
     <div>
       <h3>アクセス</h3>
       <div>
-        <img src="https://placehold.jp/375x240.png">
+        <img src="https://placehold.jp/375x240.png" />
       </div>
       <ul>
         <li>副都心線「明治神宮前駅」より徒歩5分</li>
@@ -30,12 +30,10 @@
 </template>
 
 <script>
-
 export default {
   name: "ShopInfo"
 };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped lang="scss">
-</style>
+<style scoped lang="scss"></style>
